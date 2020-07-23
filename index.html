@@ -1,9 +1,51 @@
 <!DOCTYPE html>
-<html>
+<html lang="en-US">
 	<head>
-		<title>My site</title>
+		<title>Vinícius&nbsp;Gabriel</title>
+		<!-- Metas -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="Vinícius Gabriel Marques de Melo">
+		<meta name="application-name" content="eletrolojinha">
+		<meta name="description" content="Uma loja de eletrodomésticos que procura sempre vender os melhores produtos.">
+		<meta name="keywords" content="loja, eletrodomesticos, produtos">
+		<!-- CSS -->
+		<link rel="stylesheet" type="text/css" href="css/stylemain.css">
+		<!-- Scripts -->
+		<script type="text/javascript" src="js/translations.js"></script>
+		<!--Ícones-->
+		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
+		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
 	<body>
-		<h1>Teste!</h1>
+		<section>
+			<h1>Vinícius&nbsp;Gabriel</h1>
+			<h2 class="translate" langSrc="developer">Desenvolvedor</h2>			
+		</section>
+		<section>
+			<h2 class="translate" langSrc="welcome">Seja bem vindo!</h2>
+			<p></p>
+		</section>
+
+		<script>
+			// Variáveis
+			var pageLang = 0;
+
+			// Traduzindo a página
+			var translate_js = JSON.parse(translate_json);
+			translatePage();
+
+			function translatePage(){
+				var translateElements = document.getElementsByClassName("translate");
+				pageLang = "pt-BR";
+
+				if(pageLang !== 0){
+					var i = 0;
+					for(i = 0; i < translateElements.length; i++){
+						translateElements[i].innerHTML = translate_js[pageLang][translateElements[i].getAttribute("langSrc")];
+					}
+				}
+			}
+		</script>
 	</body>
 </html>
