@@ -1,6 +1,13 @@
 :root{
 	--black: rgba(5,5,5);
+	--purple: rgba(150, 50, 230);
 }
 body{
 	margin: 0px;
+}
+iframe{
+	background-color: red;
+	border: 0px;
+	overflow: hidden;
+	width: 100%;
 }
