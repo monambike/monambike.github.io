@@ -6,9 +6,9 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="author" content="Vinícius Gabriel Marques de Melo">
-		<meta name="application-name" content="eletrolojinha">
-		<meta name="description" content="Uma loja de eletrodomésticos que procura sempre vender os melhores produtos.">
-		<meta name="keywords" content="loja, eletrodomesticos, produtos">
+		<meta name="application-name" content="Vinicius">
+		<meta name="description" content="Esse é o meu site pessoal. Aqui você verá postagens sobre mim e formas de me contatar.">
+		<meta name="keywords" content="site-pessoal, curriculo">
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="css/stylemain.css">
 		<!-- Scripts -->
@@ -17,9 +17,9 @@
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
-	<body onscroll="document.body.preventDefault()">
+	<body>
 		<!-- Cabeçalho -->
-		<iframe src="header.html"></iframe>
+		<iframe src="header.html" width="200" height="100%" scrolling="no"></iframe>
 		
 		<!-- Título -->
 		<section>
@@ -40,10 +40,13 @@
 		<script>
 			// Variáveis
 			var pageLang = 0;
+			var translate_json = 0;
 
-			// Traduzindo a página
-			var translate_js = JSON.parse(translate_json);
-			translatePage();
+			if(translate_json !== 0){
+				// Traduzindo a página
+				var translate_js = JSON.parse(translate_json);
+				translatePage();
+			}
 
 			function translatePage(){
 				var translateElements = document.getElementsByClassName("translate");
