@@ -1,14 +1,13 @@
-:root{
-	--black: rgba(5,5,5);
-	--purple: rgba(150, 50, 230);
-}
+@import url("colorpallete.css");
+
 body{
+	font-size: 16pt;
 	margin: 0px;
 }
 iframe{
-	background-color: yellow;
+	background-color: var(--black);
 	border: 0px;
-	height: 100%;
+	max-height: 100%;
 	overflow: hidden;
 	width: 100%;
 }

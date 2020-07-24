@@ -1,4 +1,7 @@
+@import url("colorpallete.css");
+
 body{
+	font-size: 16pt;
 	margin: 0px;
 }
 ul{
