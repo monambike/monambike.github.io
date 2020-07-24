@@ -1,8 +1,28 @@
-nav ul a{
-	text-decoration: none;
+body{
+	margin: 0px;
 }
-nav ul a li{
+ul{
+	margin: 0px;
+}
+
+/*NAVEGAÇÃO*/
+/*Geral*/
+ul li{
 	display: inline-block;
 	list-style: none;
 	margin: 0px;
+}
+ul li a{
+	text-decoration: none;
+}
+header{
+	background-color: red;
+}
+/*Navegação*/
+.ul-navigation{
+	background-color: blue;
+}
+/*Idioma*/
+.ul-dropdown{
+	background-color: green;
 }
