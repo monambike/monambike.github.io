@@ -1,0 +1,9 @@
+/* TÍTULO */
+#section-title{
+	background-color: var(--purple-3);
+	display: flex;
+}
+#div-title{
+	align-self: center;
+	background-color: green;
+}
