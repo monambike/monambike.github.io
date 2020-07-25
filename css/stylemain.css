@@ -14,9 +14,14 @@
 	--white: rgba(245,245,245);
 }
 
+/* DIVISÕES */
 body{
+	font-family: "Arial", "Helvetica", sans-serif;
 	font-size: 16pt;
 	margin: 0px;
+}
+section{
+	min-height: 100vh;
 }
 iframe{
 	background-color: var(--black);
@@ -25,6 +30,8 @@ iframe{
 	overflow: hidden;
 	width: 100%;
 }
-section{
-	min-height: 100vh;
+
+/*TEXTOS*/
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
 }
