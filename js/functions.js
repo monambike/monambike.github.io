@@ -20,6 +20,7 @@ document.body.onload = function(event){
 		dá o valor para a variável e traduz */
 		if(browserLang === supportedLang[i] && translationArquiveJson !== 0){
 			pageLang = supportedLang[i];
+			localStorage.setItem("language", pageLang);
 			translatePage();
 			return;
 		}
