@@ -14,6 +14,7 @@
 		<link rel="stylesheet" type="text/css" href="css/styleindex.css">
 		<!-- Scripts -->
 		<script type="text/javascript" src="js/translations.js" async></script>
+		<script type="text/javascript" src="js/functions.js" async></script>
 		<!--Ícones-->
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
@@ -39,29 +40,5 @@
 
 		<!-- Rodapé  -->
 		<iframe src="footer.html"></iframe>
-
-		<script>
-			// Variáveis
-			var pageLang = 0;
-			var translate_json = 0;
-
-			if(translate_json !== 0){
-				// Traduzindo a página
-				var translate_js = JSON.parse(translate_json);
-				translatePage();
-			}
-
-			function translatePage(){
-				var translateElements = document.getElementsByClassName("translate");
-				pageLang = "pt-BR";
-
-				if(pageLang !== 0){
-					var i = 0;
-					for(i = 0; i < translateElements.length; i++){
-						translateElements[i].innerHTML = translate_js[pageLang][translateElements[i].getAttribute("langSrc")];
-					}
-				}
-			}
-		</script>
 	</body>
 </html>
