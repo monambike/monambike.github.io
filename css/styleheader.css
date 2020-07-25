@@ -1,31 +1,44 @@
 @import url("stylemain.css");
 
+/*GERAL*/
+/*Divisões*/
 body{
 	font-size: 16pt;
-	margin: 0px;
+	user-select: none;
+}
+
+/* NAVEGAÇÃO */
+/* Divisões */
+nav{
+	background-color: var(--purple-7);
 }
 ul{
 	margin: 0px;
 }
-
-/*NAVEGAÇÃO*/
-/*Geral*/
-ul li{
+a{
+	text-decoration: none;
+}
+li{
+	color: var(--purple-1);
 	display: inline-block;
 	list-style: none;
 	margin: 0px;
+	padding: 20px;
 }
-ul li a{
-	text-decoration: none;
+/* Hover */
+li:hover{
+	background-color: var(--purple-1);
+	color: var(--purple-7);
+	cursor: pointer;
 }
-header{
-	background-color: red;
+/* Botões */
+.button-dropdown{
+	vertical-align: middle;	
 }
-/*Navegação*/
-.ul-navigation{
-	background-color: blue;
+.button-dropdown div{
 }
-/*Idioma*/
+
+/* IDIOMA */
 .ul-dropdown{
-	background-color: green;
+	background-color: var(--purple-6);
 }
