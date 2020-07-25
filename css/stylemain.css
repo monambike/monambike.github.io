@@ -1,3 +1,18 @@
+/* PALETA DE CORES */
+:root{
+	--black: rgba(5,5,5);
+	--gray-1: rgba(20,20,20);
+	--gray-2: rgba(80,80,80);
+	--gray-3: rgba(150,150,150);
+	--purple-1: rgba(20,0,50);
+	--purple-2: rgba(90,0,150);
+	--purple-3: rgba(100,0,200);
+	--purple-4: rgba(140,30,255);
+	--purple-5: rgba(160,80,255);
+	--purple-6: rgba(200,130,255);
+	--purple-7: rgba(240,230,255);
+	--white: rgba(245,245,245);
+}
 
 body{
 	font-size: 16pt;
