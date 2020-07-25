@@ -14,7 +14,18 @@
 	--white: rgba(245,245,245);
 }
 
-/* DIVISÕES */
+/* RESET */
+/* Divisões */
+ul{
+	padding: 0px;
+}
+/* Textos */
+h1,h2,h3,h4,h5,h6{
+	margin: 0px;
+}
+
+/* GERAL */
+/* Divisões */
 body{
 	font-family: "Arial", "Helvetica", sans-serif;
 	font-size: 16pt;
@@ -24,14 +35,8 @@ section{
 	min-height: 100vh;
 }
 iframe{
-	background-color: var(--black);
 	border: 0px;
 	max-height: 100%;
 	overflow: hidden;
 	width: 100%;
-}
-
-/*TEXTOS*/
-h1,h2,h3,h4,h5,h6{
-	margin: 0px;
 }

@@ -1,4 +1,4 @@
-var translate_json = `{
+var translationArquiveJson = `{
 	"en-US":{
 		"developer": "Developer",
 		"welcome": "Welcome to my site!"
