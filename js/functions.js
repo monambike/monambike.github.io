@@ -17,7 +17,7 @@ document.body.onload = function(event){
 	translateBrowserLanguage();
 }
 
-function switchLanguage(){
+function translateWithBrowserLanguage(){
 	langDropdown = document.getElementById("language-dropdown").style;
 
 	if(langDropdown.display === "none"){

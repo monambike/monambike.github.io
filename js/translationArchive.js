@@ -1,4 +1,4 @@
-function translateBrowserLanguage(){
+function translateWithBrowserLanguage(){
 	// Verifica se o idioma do browser é compatível com o do site
 	for(i = 0; i < supportedLang.length; i++){
 		/* Se for compatível, e se o arquivo JSON foi carregado
@@ -22,6 +22,8 @@ function translatePage(pageLang){
 		return;
 	}
 }
+
+
 
 var translationArquiveJson = `{
 	"en-US":{
