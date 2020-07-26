@@ -7,3 +7,10 @@
 	align-self: center;
 	width: 100%;
 }
+
+#aviso{
+	background-color: rgba(200,0,0);
+	color: var(--white);
+	padding: 20px;
+	text-align: center;
+}
