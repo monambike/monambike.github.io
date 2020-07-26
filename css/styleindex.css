@@ -5,11 +5,23 @@
 }
 #div-title{
 	align-self: center;
+	color: var(--white);
+	margin-left: 10%;
 	width: 100%;
 }
+#div-title h1, #div-title h2{
+	text-shadow: 5px 5px var(--purple-1);
+}
+#div-title h1{
+	font-size: 6vw;
+}
+#div-title h2{
+	font-size: 5vw;
+}
 
+/* Aviso */
 #aviso{
-	background-color: rgba(200,0,0);
+	background-color: var(--green);
 	color: var(--white);
 	padding: 20px;
 	text-align: center;
