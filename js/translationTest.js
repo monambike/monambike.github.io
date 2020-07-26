@@ -1,5 +1,3 @@
-
-
 var translationArquiveJson = `{
 	"pt-BR":{
 		"developer": "Desenvolvedor",
