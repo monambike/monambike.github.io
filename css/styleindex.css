@@ -1,26 +1,19 @@
 /* TITLE */
-#section-title{
+.section-title{
 	background-color: var(--purple-3);
 	display: flex;
 }
-#div-title{
+.div-title{
 	align-self: center;
 	color: var(--white);
-	margin-left: 10%;
 	width: 100%;
 }
-#div-title h1, #div-title h2{
+.div-title h1, .div-title h2{
 	text-shadow: 5px 5px var(--purple-1);
-}
-#div-title h1{
-	font-size: 6vw;
-}
-#div-title h2{
-	font-size: 5vw;
 }
 
 /* Notice */
-#notice{
+.notice{
 	background-color: var(--red);
 	color: var(--white);
 	padding: 20px;
