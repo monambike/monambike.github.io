@@ -3,7 +3,7 @@ document.body.onload = function(event){
 }
 
 function switchLanguage(){
-	langDropdown = document.getElementById("language-dropdown").style;
+	langDropdown = document.getElementById("ul-dropdown-language").style;
 
 	if(langDropdown.display === "none"){
 		langDropdown.display = "block";

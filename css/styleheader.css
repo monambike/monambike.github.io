@@ -11,9 +11,7 @@ body{
 /* Divisions  */
 nav{
 	background-color: var(--purple-7);
-}
-ul{
-	margin: 0px;
+	font-size: 3vw;
 }
 a{
 	text-decoration: none;
@@ -23,7 +21,7 @@ li{
 	display: inline-block;
 	list-style: none;
 	margin: 0px;
-	padding: 20px;
+	padding: 2%;
 }
 /* Hover */
 li:hover{
@@ -35,17 +33,8 @@ li:hover{
 .button-dropdown{
 	vertical-align: middle;	
 }
-.button-dropdown div{
-}
 
 /* LANGUAGE */
 .ul-dropdown{
 	background-color: var(--purple-6);
-}
-
-/* MEDIA QUERIES */
-@media (max-width: 750px){
-	nav{
-		font-size: 2vw;
-	}
 }
