@@ -1,0 +1,40 @@
+/* COLOR PALLETE */
+:root{
+	/* Black, gray and white */
+	--black: rgba(5,5,5);
+	--gray-1: rgba(20,20,20);
+	--gray-2: rgba(80,80,80);
+	--gray-3: rgba(150,150,150);
+	--white: rgba(245,245,245);
+	/* Purple */
+	--purple-1: rgba(40,0,70);
+	--purple-2: rgba(90,0,150);
+	--purple-3: rgba(100,0,200);
+	--purple-4: rgba(140,30,255);
+	--purple-5: rgba(160,80,255);
+	--purple-6: rgba(200,130,255);
+	--purple-7: rgba(240,230,255);
+	/* Other colors */
+	--green: rgba(0,160,0);
+	--red: rgba(200,0,0);
+
+	/*HEXADECIMAL
+	Black, gray and white
+	--black: #050505;
+	--gray-1: #141414;
+	--gray-2: #505050;
+	--gray-3: #969696;
+	--white: #F5F5F5;
+	Purple
+	--purple-1: #280046;
+	--purple-2: #5A0096;
+	--purple-3: #6400C8;
+	--purple-4: #8C1EFF;
+	--purple-5: #A050FF;
+	--purple-6: #C882FF;
+	--purple-7: #F0E6FF;
+	Other colors
+	--green: #00A000;
+	--red: #C80000;
+	*/
+}
