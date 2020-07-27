@@ -1,4 +1,4 @@
-/* TÍTULO */
+/* TITLE */
 #section-title{
 	background-color: var(--purple-3);
 	display: flex;
@@ -19,8 +19,8 @@
 	font-size: 5vw;
 }
 
-/* Aviso */
-#aviso{
+/* Notice */
+#notice{
 	background-color: var(--green);
 	color: var(--white);
 	padding: 20px;

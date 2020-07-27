@@ -1,14 +1,14 @@
 @import url("stylemain.css");
 
-/*GERAL*/
-/*Divisões*/
+/* GENERAL */
+/* Divisions */
 body{
 	font-size: 16pt;
 	user-select: none;
 }
 
-/* NAVEGAÇÃO */
-/* Divisões */
+/* NAVIGATION */
+/* Divisions  */
 nav{
 	background-color: var(--purple-7);
 }
@@ -31,18 +31,19 @@ li:hover{
 	color: var(--purple-7);
 	cursor: pointer;
 }
-/* Botões */
+/* Buttons */
 .button-dropdown{
 	vertical-align: middle;	
 }
 .button-dropdown div{
 }
 
-/* IDIOMA */
+/* LANGUAGE */
 .ul-dropdown{
 	background-color: var(--purple-6);
 }
 
+/* MEDIA QUERIES */
 @media (max-width: 750px){
 	nav{
 		font-size: 2vw;
