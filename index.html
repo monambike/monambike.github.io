@@ -9,9 +9,11 @@
 		<meta name="application-name" content="monambike.github.io">
 		<meta name="description" content="This is my personal website. You will see posts about me and many ways of contact me.">
 		<meta name="keywords" content="personal-site, curriculum">
+
 		<!-- CSS -->
 		<link rel="stylesheet" type="text/css" href="css/stylemain.css">
 		<link rel="stylesheet" type="text/css" href="css/styleindex.css">
+
 		<!-- SCRIPTS -->
 		<script src="js/functions.js" defer></script>
 		<!-- Translation -->
@@ -22,28 +24,39 @@
 		<link rel="icon" type="image/x-icon" href="images/favicon.ico">
 		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
 	</head>
-	<body>
-		<!-- HEADER -->
-		<iframe src="header.html" width="200" height="100%" scrolling="no"></iframe>
-		
-		<!-- TITLE -->
-		<section class="section-title">
-			<div class="div-title">
-				<h1>Vinícius&nbsp;Gabriel</h1>
-				<h2 class="translate" langSrc="developer">Developer</h2>
-			</div>
-		</section>
+	<body id="body-page" onload="console.log('Javascript has been loaded!');">
+		<!-- NOSCRIPT -->
+		<noscript>
+			<section>
+				<h1>ATIVE&nbsp;O&nbsp;JAVASCRIPT!</h1>
+				<p>É necessário habilitar Javascript para visualizar o site pois usamos muitos recursos que necessitam de javascript, desde ocultar e mostrar divisões à ajustar o tamanho dos layouts do site.</p>
+				<p>Por favor, ative o Javascript e recarregue a página para poder visualizar o conteúdo normalmente!</p>
+			</section>
+		</noscript>
 
-		<!-- NOTICE -->
-		<h3 class="notice">Site in development, sorry for the inconvenience.</h3>
+		<div id="div-display">
+			<!-- HEADER -->
+			<iframe id="iframe-header" src="header.html" scrolling="no"></iframe>
+			
+			<!-- TITLE -->
+			<section class="section-title">
+				<div class="div-title">
+					<h1>Vinícius&nbsp;Gabriel</h1>
+					<h2 class="translate" langSrc="developer">Developer</h2>
+				</div>
+			</section>
 
-		<!-- WELCOME -->
-		<section>
-			<h2 class="translate" langSrc="welcome">Welcome!</h2>
-			<p></p>
-		</section>
+			<!-- NOTICE -->
+			<h3 class="notice">Site in development, sorry for the inconvenience.</h3>
 
-		<!-- FOOTER  -->
-		<iframe src="footer.html"></iframe>
+			<!-- WELCOME -->
+			<section>
+				<h2 class="translate" langSrc="welcome">Welcome!</h2>
+				<p></p>
+			</section>
+
+			<!-- FOOTER  -->
+			<iframe id="iframe-footer" src="footer.html"></iframe>
+		</div>
 	</body>
 </html>
