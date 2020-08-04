@@ -1,5 +1,5 @@
-// Variáveis
-// Idioma
+// VARIABLES
+// Language
 var browserLang = navigator.language || navigator.userLanguage;
 var supportedLang = [
 	"pt-BR",
@@ -7,19 +7,23 @@ var supportedLang = [
 	"es-ES",
 	"ja-JP"
 ];
-// Recebendo traduções disponíveis
+// Retrieving avaible translations
 translationArchiveJs = JSON.parse(translationArchiveJson);
 var pageLang = 0;
-// Contador
+// Counter
 var i = 0;
 
+document.body.onload = function(event){
+	translateWithBrowserLanguage();
+}
+
 function translateWithBrowserLanguage(){
-	// Verifica se a variável no local storage está vazia
+	// Verifies if local storage variable is empty
 	if(localStorage.getItem("language") === null){
-		// Verifica se o idioma do browser é compatível com o do site
+		// Verifies if browser language exists in the site archive
 		for(i = 0; i < supportedLang.length; i++){
-			/* Se for compatível, e se o arquivo JSON foi carregado
-			dá o valor para a variável e traduz */
+			/* If so, and if JSON file has been loaded
+			gives the value to the variable and translates */
 			if(browserLang === supportedLang[i] && translationArchiveJson !== 0){
 				pageLang = supportedLang[i];
 				localStorage.setItem("language", pageLang);
