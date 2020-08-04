@@ -9,5 +9,9 @@ function onBodyLoad(){
 	console.log("Body has been loaded!");
 }
 
+function updateIframeSize(){
+	iframeHeader.style.height = iframeHeader.contentWindow.document.body.scrollHeight + "px";
+	iframeFooter.style.height = iframeFooter.contentWindow.document.body.scrollHeight + "px";
+}
 
 setInterval(updateIframeSize, 500);
