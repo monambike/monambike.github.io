@@ -1,14 +1,13 @@
-document.body.onload = function(event){
-	translateWithBrowserLanguage();
+// VARIABLES
+var iframeHeader = document.getElementById("iframe-header");
+var iframeFooter = document.getElementById("iframe-footer");
+var divDisplay = document.getElementById("div-display");
+
+function onBodyLoad(){
+	divDisplay.style.display = "block";
+	updateIframeSize();
+	console.log("Body has been loaded!");
 }
 
-function switchLanguage(){
-	langDropdown = document.getElementById("ul-dropdown-language").style;
 
-	if(langDropdown.display === "none"){
-		langDropdown.display = "block";
-	}
-	else{
-		langDropdown.display = "none";
-	}
-}
+setInterval(updateIframeSize, 500);
