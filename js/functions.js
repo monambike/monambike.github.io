@@ -4,9 +4,9 @@ var iframeFooter = document.getElementById("iframe-footer");
 var divDisplay = document.getElementById("div-display");
 
 function onBodyLoad(){
+	console.log("ajustado!");
 	divDisplay.style.display = "block";
 	updateIframeSize();
-	console.log("Body has been loaded!");
 }
 
 function updateIframeSize(){
