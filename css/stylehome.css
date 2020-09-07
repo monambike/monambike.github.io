@@ -21,9 +21,28 @@
 }
 
 /* WELCOME */
+.section-welcome{
+	/*display: inline;*/
+	text-align: center;
+}
 .section-welcome h2{
 	padding: 20px;
 	text-align: center;
+}
+/* Rows */
+.section-welcome div{
+	box-shadow: 5px 5px var(--gray-4);
+	float: left;
+	width: 30%;
+}
+.div-first-row, .div-third-row{
+	background-color: var(--gray-1);
+	color: var(--white);
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+.div-second-row{
+	background-color: var(--gray-5);
 }
 
 /* WORKS */
