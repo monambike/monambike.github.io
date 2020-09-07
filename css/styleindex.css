@@ -36,20 +36,20 @@
 /* Instagram Profile */
 
 /* Instagram Gallery */
-.div-gallery{
+.ig-div-gallery{
 	background-color: var(--white);
 	margin: 20px;
 	padding: 20px;
 	text-align: center;
 }
-.div-gallery img{
+.ig-div-gallery img{
 	height: 50px;
 	padding: 5px;
 	width: 50px;
 } 
-.div-gallery-firstrow img{
+.ig-div-gallery-firstrow img{
 	background-color: yellow;
 }
-.div-gallery-secondrow img{
+.ig-div-gallery-secondrow img{
 	background-color: green;
 }
