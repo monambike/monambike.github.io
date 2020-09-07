@@ -20,7 +20,7 @@
 	text-align: center;
 }
 
-/*WORKS*/
+/* WORKS */
 .section-works{
 	background-color: var(--purple-2);
 	color: var(--white);
@@ -33,7 +33,9 @@
 	text-align: center;
 	padding: 10px;
 }
-/*Gallery*/
+/* Instagram Profile */
+
+/* Instagram Gallery */
 .div-gallery{
 	background-color: var(--white);
 	margin: 20px;
