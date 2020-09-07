@@ -6,7 +6,6 @@ var divDisplay = document.getElementById("div-display");
 function onBodyLoad(){
 	console.log("ajustado!");
 	divDisplay.style.display = "block";
-	updateIframeSize();
 }
 
 function updateIframeSize(){
