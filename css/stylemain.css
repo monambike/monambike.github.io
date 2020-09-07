@@ -31,6 +31,14 @@ iframe{
 	overflow: hidden;
 	width: 100%;
 }
+img{
+	background-color: var(--purple-2);
+	color: var(--white);
+}
+figcaption{
+	background-color: var(--purple-3);
+	color: var(--white);
+}
 
 /* No Script */
 noscript section{

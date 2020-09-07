@@ -82,3 +82,14 @@
 	padding: 20px;
 	text-align: center;
 }
+.section-about{
+	float: left;
+}
+.section-about p{
+	padding: 20px;
+	text-align: justify;
+}
+.section-about figure{
+	display: inline-block;
+	float: right;
+}
