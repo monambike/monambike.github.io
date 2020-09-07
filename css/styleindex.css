@@ -12,7 +12,13 @@
 	text-shadow: 5px 5px var(--purple-1);
 }
 
-/* Notice */
+/* WELCOME */
+.section-welcome h2{
+	padding: 20px;
+	text-align: center;
+}
+
+/* NOTICE */
 .notice{
 	background-color: var(--red);
 	color: var(--white);
@@ -33,23 +39,27 @@
 	text-align: center;
 	padding: 10px;
 }
-/* Instagram Profile */
-.ig-div-profile
-/* Instagram Gallery */
-.ig-div-gallery{
+/* Gallery */
+.div-gallery{
 	background-color: var(--white);
 	margin: 20px;
 	padding: 20px;
 	text-align: center;
 }
-.ig-div-gallery img{
+.div-gallery img{
 	height: 50px;
 	padding: 5px;
 	width: 50px;
 } 
-.ig-div-gallery-firstrow img{
+.div-gallery-firstrow img{
 	background-color: yellow;
 }
-.ig-div-gallery-secondrow img{
+.div-gallery-secondrow img{
 	background-color: green;
+}
+
+/* ABOUT */
+.section-about h2{
+	padding: 20px;
+	text-align: center;
 }
