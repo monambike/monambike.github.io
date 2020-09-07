@@ -19,3 +19,35 @@
 	padding: 20px;
 	text-align: center;
 }
+
+/*WORKS*/
+.section-works{
+	background-color: var(--purple-2);
+	color: var(--white);
+}
+.section-works h2{
+	padding: 20px;
+	text-align: center;
+}
+.section-works h3{
+	text-align: center;
+	padding: 10px;
+}
+/*Gallery*/
+.div-gallery{
+	background-color: var(--white);
+	margin: 20px;
+	padding: 20px;
+	text-align: center;
+}
+.div-gallery img{
+	height: 50px;
+	padding: 5px;
+	width: 50px;
+} 
+.div-gallery-firstrow img{
+	background-color: yellow;
+}
+.div-gallery-secondrow img{
+	background-color: green;
+}
