@@ -13,14 +13,12 @@ nav{
 	background-color: var(--purple-7);
 	font-size: 3vw;
 }
-ul{
-	display: inline-block;		
-}
 a{
 	text-decoration: none;
 }
 li{
 	color: var(--purple-1);
+	display: inline-block;
 	list-style: none;
 	margin: 0px;
 	padding: 2%;
