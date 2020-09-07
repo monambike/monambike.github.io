@@ -11,7 +11,7 @@ body{
 /* Divisions  */
 nav{
 	background-color: var(--purple-7);
-	font-size: 3vw;
+	font-size: 2vw;
 }
 a{
 	text-decoration: none;
