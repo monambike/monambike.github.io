@@ -12,16 +12,16 @@
 	text-shadow: 5px 5px var(--purple-1);
 }
 
-/* WELCOME */
-.section-welcome h2{
-	padding: 20px;
-	text-align: center;
-}
-
 /* NOTICE */
 .notice{
 	background-color: var(--red);
 	color: var(--white);
+	padding: 20px;
+	text-align: center;
+}
+
+/* WELCOME */
+.section-welcome h2{
 	padding: 20px;
 	text-align: center;
 }
