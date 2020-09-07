@@ -31,13 +31,16 @@ iframe{
 	overflow: hidden;
 	width: 100%;
 }
-img{
+figure{
 	background-color: var(--purple-2);
-	color: var(--white);
+	border-radius: 5px;
+	padding: 10px;
 }
 figcaption{
-	background-color: var(--purple-3);
+	background-color: var(--purple-4);
 	color: var(--white);
+	text-align: center;
+	border-radius: 10px;
 }
 
 /* No Script */
