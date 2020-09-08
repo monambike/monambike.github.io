@@ -1,7 +1,7 @@
 var translationArchiveJson = `{
 	"pt-BR":{
 		"developer": "Desenvolvedor",
-		"welcome": "Seja bem vindo!"
+		"welcome": "Seja Bem-Vindo!"
 	},
 
 	"en-US":{
