@@ -1,14 +1,15 @@
 // VARIABLES
-var iframeHeader;
-var iframeFooter;
-var divDisplay = document.getElementById("div-display");
+var iframeHeader = document.getElementById("iframe-header");
+var iframeFooter = document.getElementById("iframe-footer");
 
 function updateIframeSize(){
-	setTimeout(3000);
-	iframeHeader = document.getElementById("iframe-header");
-	iframeFooter = document.getElementById("iframe-footer");
-	iframeHeader.style.height = iframeHeader.contentWindow.document.body.scrollHeight + "px";
-	iframeFooter.style.height = iframeFooter.contentWindow.document.body.scrollHeight + "px";
+	try{
+		iframeHeader.style.height = iframeHeader.contentWindow.document.body.scrollHeight + "px";
+		iframeFooter.style.height = iframeFooter.contentWindow.document.body.scrollHeight + "px";
+	
+	}catch(e){
+		return;
+	}
 }
 
 setInterval(updateIframeSize, 500);
