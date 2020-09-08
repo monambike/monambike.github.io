@@ -31,10 +31,27 @@ body{
 	text-align: center;
 }
 /* Rows */
-.section-welcome div{
+.section-welcome article{
+	height: auto;
+	overflow: auto;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	width: 100%;
+}
+.section-welcome article div{
 	box-shadow: 5px 5px var(--gray-4);
 	float: left;
+	padding: 0px;
 	width: 30%;
+}
+.section-welcome article div h3{
+	font-size: 20pt;
+	padding: 20px;
+}
+.section-welcome article div p{
+	font-size: 14pt;
+	margin: 30px;
+	text-align: justify;
 }
 .div-first-row, .div-third-row{
 	background-color: var(--purple-2);
