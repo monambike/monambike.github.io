@@ -1,6 +1,9 @@
+body{
+	background: var(--purple-3) url(/resources/images/wallpaper_code.jpg) no-repeat fixed center/cover;
+}
 /* TITLE */
 .section-title{
-	background-color: var(--purple-3);
+	background-color: rgba(100,0,200,0.95);
 	display: flex;
 }
 .div-title{
