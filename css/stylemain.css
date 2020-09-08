@@ -54,6 +54,16 @@ a:hover{
 a:active{
 	color: var(--purple-5);
 }
+/* Texts */
+h1{
+	padding: 20px;
+}
+h2{
+	font-size: 24pt;
+	padding: 20px;
+	text-align: center;
+	text-shadow: 2px 2px var(--gray-3);
+}
 
 /* No Script */
 noscript section{

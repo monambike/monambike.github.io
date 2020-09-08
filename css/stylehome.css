@@ -9,6 +9,7 @@
 	width: 100%;
 }
 .div-title h1, .div-title h2{
+	text-align: left;
 	text-shadow: 5px 5px var(--purple-1);
 }
 
@@ -24,10 +25,6 @@
 .section-welcome{
 	background-color: var(--purple-1);
 	color: var(--white);
-	text-align: center;
-}
-.section-welcome h2{
-	padding: 20px;
 	text-align: center;
 }
 /* Rows */
@@ -51,10 +48,6 @@
 .section-works{
 	background-color: var(--purple-2);
 	color: var(--white);
-}
-.section-works h2{
-	padding: 20px;
-	text-align: center;
 }
 .section-works h3{
 	text-align: center;
@@ -83,10 +76,6 @@
 .section-about{
 	background-color: var(--purple-7);
 	float: left;
-}
-.section-about h2{
-	padding: 20px;
-	text-align: center;
 }
 .section-about p{
 	padding: 20px;
