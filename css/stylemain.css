@@ -28,9 +28,6 @@ section{
 /* Images */
 iframe{
 	border: 0px;
-	min-height: 100%;
-	overflow: hidden;
-	width: 100%;
 }
 figure{
 	background-color: var(--purple-2);
@@ -79,4 +76,14 @@ noscript h1{
 noscript p{
 	color: var(--purple-7);
 	padding: 5%;
+}
+
+.div-iframe-header{
+	background-color: var(--purple-7);
+}
+.div-iframe-footer{
+	background-color: var(--black);
+}
+#iframe-header, #iframe-footer{
+	width: 100%;
 }
