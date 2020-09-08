@@ -22,7 +22,8 @@
 
 /* WELCOME */
 .section-welcome{
-	/*display: inline;*/
+	background-color: var(--purple-1);
+	color: var(--white);
 	text-align: center;
 }
 .section-welcome h2{
@@ -36,13 +37,14 @@
 	width: 30%;
 }
 .div-first-row, .div-third-row{
-	background-color: var(--gray-1);
+	background-color: var(--purple-2);
 	color: var(--white);
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 }
 .div-second-row{
-	background-color: var(--gray-5);
+	background-color: var(--purple-7);
+	color: var(--black);
 }
 
 /* WORKS */
@@ -78,12 +80,13 @@
 }
 
 /* ABOUT */
+.section-about{
+	background-color: var(--purple-7);
+	float: left;
+}
 .section-about h2{
 	padding: 20px;
 	text-align: center;
-}
-.section-about{
-	float: left;
 }
 .section-about p{
 	padding: 20px;
