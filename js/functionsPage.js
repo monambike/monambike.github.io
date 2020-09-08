@@ -1,5 +1,4 @@
-document.body.onload = function(){
-	divDisplay.style.display = "block";
-	console.log("Carregou!");
-	updateIframeSize();
-}
+divDisplay.style.display = "block";
+console.log("Carregou!");
+alert("hi");
+updateIframeSize();

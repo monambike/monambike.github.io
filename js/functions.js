@@ -3,11 +3,6 @@ var iframeHeader = document.getElementById("iframe-header");
 var iframeFooter = document.getElementById("iframe-footer");
 var divDisplay = document.getElementById("div-display");
 
-function onBodyLoad(){
-	console.log("ajustado!");
-	divDisplay.style.display = "block";
-}
-
 function updateIframeSize(){
 	iframeHeader.style.height = iframeHeader.contentWindow.document.body.scrollHeight + "px";
 	iframeFooter.style.height = iframeFooter.contentWindow.document.body.scrollHeight + "px";

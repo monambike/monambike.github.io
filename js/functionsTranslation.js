@@ -13,11 +13,10 @@ var pageLang = 0;
 // Counter
 var i = 0;
 
-document.body.onload = function(event){
-	translateWithBrowserLanguage();
-}
+translateWithBrowserLanguage();
 
 function translateWithBrowserLanguage(){
+	console.log("function 1 executed!");
 	// Verifies if local storage variable is empty
 	if(localStorage.getItem("language") === null){
 		// Verifies if browser language exists in the site archive
@@ -43,6 +42,7 @@ function chooseLanguage(chosenLanguage){
 }
 
 function translatePage(){
+	console.log("function 2 executed!");
 	var translateElements = document.getElementsByClassName("translate");
 
 	if(localStorage.getItem("language") !== null){
