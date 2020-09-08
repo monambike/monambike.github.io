@@ -19,7 +19,6 @@ p{
 /* Divisions */
 body{
 	font-family: "Arial", "Helvetica", sans-serif;
-	font-size: 16pt;
 	margin: 0px;
 }
 section{
@@ -56,10 +55,17 @@ h1{
 	padding: 20px;
 }
 h2{
-	font-size: 24pt;
+	font-size: var(--h2-font-size);
 	padding: 20px;
 	text-align: center;
 	text-shadow: 2px 2px var(--gray-3);
+}
+h3{
+	font-size: var(--h3-font-size);
+	padding: 20px;
+}
+p{
+	font-size: var(--p-font-size);
 }
 
 /* No Script */
@@ -69,7 +75,7 @@ noscript section{
 noscript h1{
 	background-color: var(--purple-1);
 	color: var(--purple-6);
-	font-size: 5vw;
+	font-size: var(--h1-font-size);
 	padding: 20px;
 	text-align: center;
 }
@@ -78,6 +84,7 @@ noscript p{
 	padding: 5%;
 }
 
+/* Global Classes and IDs */
 .div-iframe-header{
 	background-color: var(--purple-7);
 }

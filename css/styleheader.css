@@ -3,7 +3,6 @@
 /* GENERAL */
 /* Divisions */
 body{
-	font-size: 16pt;
 	user-select: none;
 }
 
@@ -11,7 +10,7 @@ body{
 /* Divisions  */
 nav{
 	background-color: var(--purple-7);
-	font-size: 2vw;
+	font-size: var(--nav-font-size);
 }
 a{
 	text-decoration: none;

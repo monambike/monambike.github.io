@@ -41,6 +41,10 @@
 	*/
 
 	/* FONTS SIZES */
-
-	--p-font-size: 14pt;
+	--p-font-size: 16pt;
+	--nav-font-size: 2vw;
+	/* Titles */
+	--h1-font-size: 5vw;
+	--h2-font-size: 24pt;
+	--h3-font-size: 20pt;
 }
