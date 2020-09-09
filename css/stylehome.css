@@ -70,21 +70,45 @@ body{
 }
 /* Gallery */
 .div-gallery{
-	background-color: var(--white);
-	margin: 20px;
+	background-color: var(--purple-4);
+	box-shadow: 20px 20px var(--purple-3);
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: auto auto auto;
+	margin-left: 20%;
+	margin-right: 20%;
 	padding: 20px;
 	text-align: center;
 }
 .div-gallery img{
-	height: 50px;
+	align-self: center;
+	height: auto;
 	padding: 5px;
-	width: 50px;
-} 
-.div-gallery-firstrow img{
-	background-color: yellow;
+	width: 100%;
 }
-.div-gallery-secondrow img{
-	background-color: green;
+.div-gallery img:hover{
+	margin-left: 10%;
+	width: 80%;
+}
+/* Dots */
+.div-dots{
+	background-color: var(--purple-1);
+	text-align: center;
+	margin-top: 5%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100%;
+}
+.svg-dot{
+	color: var(--gray-2);
+}
+.svg-dot:hover{
+	color: var(--white);
+	cursor: pointer;
+	transition: 0.5s;
+}
+.svg-dot.selected{
+	color: var(--white);
 }
 
 /* ABOUT */
