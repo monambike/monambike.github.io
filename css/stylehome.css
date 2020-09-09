@@ -81,7 +81,7 @@ body{
 	padding: 20px;
 	text-align: center;
 }
-.div-gallery.hidden{
+.div-gallery.hidden, .h3-slide-title.hidden{
 	display: none;
 }
 .div-gallery img{
