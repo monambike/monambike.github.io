@@ -79,6 +79,7 @@ body{
 	margin-right: 20%;
 	padding: 20px;
 	text-align: center;
+	user-select: none;
 }
 .div-gallery img{
 	align-self: center;
