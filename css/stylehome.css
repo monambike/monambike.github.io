@@ -104,7 +104,7 @@ body{
 	color: var(--gray-2);
 }
 .svg-dot:hover{
-	color: var(--white);
+	color: var(--gray-3);
 	cursor: pointer;
 	transition: 0.5s;
 }

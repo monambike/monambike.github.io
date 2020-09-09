@@ -9,11 +9,11 @@ updateIframeSize();
 
 // Function to select dot
 function selectDot(dotSelected){
-	console.log("You've selected dot number " + dotSelected + " that corresponds to " + svgDots[dotSelected] + ".");
-
+	// Resets
 	for(i = 0; i < svgDots.length; i++){
-		svgDots[i].style.color = "var(--gray-2)";
+		svgDots[i].classList.remove("selected");
 	}
 
-	svgDots[dotSelected].style.color = "var(--white)"
+	// Attribute the class
+	svgDots[dotSelected].classList.add("selected");
 }
