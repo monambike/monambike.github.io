@@ -1,6 +1,7 @@
 // VARIABLES
 var divDisplay = document.getElementById("div-display");
 var svgDots = document.getElementsByClassName("svg-dot");
+var galleries = document.getElementsByClassName("div-gallery");
 var i = 0;
 
 // Display content
@@ -16,4 +17,19 @@ function selectDot(dotSelected){
 
 	// Attribute the class
 	svgDots[dotSelected].classList.add("selected");
+
+	updateSlide(dotSelected);
+}
+
+function updateSlide(dotSelected){
+	for(i = 0; i < galleries.length; i++){
+		galleries[i].classList.add("hidden");
+	}
+
+	try{
+		galleries[dotSelected].classList.remove("hidden");
+	}
+	catch(e){
+		console.log("It was not possible to find a gallery");
+	}
 }

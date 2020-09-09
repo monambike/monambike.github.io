@@ -63,6 +63,7 @@ body{
 .section-works{
 	background-color: var(--purple-2);
 	color: var(--white);
+	position: relative;
 }
 .section-works h3{
 	text-align: center;
@@ -79,7 +80,9 @@ body{
 	margin-right: 20%;
 	padding: 20px;
 	text-align: center;
-	user-select: none;
+}
+.div-gallery.hidden{
+	display: none;
 }
 .div-gallery img{
 	align-self: center;
@@ -93,11 +96,15 @@ body{
 }
 /* Dots */
 .div-dots{
+	position: absolute;
+	bottom: 0;
+	left: 0;
 	background-color: var(--purple-1);
 	text-align: center;
-	margin-top: 5%;
+	/*margin-top: 5%;
 	padding-top: 10px;
-	padding-bottom: 10px;
+	padding-bottom: 10px;*/
+	user-select: none;
 	width: 100%;
 }
 .svg-dot{
