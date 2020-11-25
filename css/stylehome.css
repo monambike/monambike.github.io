@@ -24,6 +24,24 @@ body{
 	text-align: center;
 }
 
+/* ABOUT */
+.section-about{
+	background-color: var(--purple-7);
+	float: left;
+}
+.section-about div{
+	padding: 20px;
+}
+.section-about p{
+	padding-left: 60px;
+	padding-right: 60px;
+	text-align: justify;
+}
+.section-about figure{
+	display: inline-block;
+	float: right;
+}
+
 /* WELCOME */
 .section-welcome{
 	background-color: var(--purple-1);
@@ -119,20 +137,7 @@ body{
 	color: var(--white);
 }
 
-/* ABOUT */
-.section-about{
-	background-color: var(--purple-7);
-	float: left;
-}
-.section-about div{
-	padding: 20px;
-}
-.section-about p{
-	padding-left: 60px;
-	padding-right: 60px;
-	text-align: justify;
-}
-.section-about figure{
-	display: inline-block;
-	float: right;
+/* CONTACT */
+.section-contact{
+	background-color: var(--white);
 }
