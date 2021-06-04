@@ -1,6 +1,7 @@
-// VARIABLES
-var langDropdown;
+// FUNCTIONS
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
+// Switch between open and close the language layout menu
 function switchLanguage(){
 	langDropdown = document.getElementById("ul-dropdown-language").style;
 
@@ -11,3 +12,5 @@ function switchLanguage(){
 		langDropdown.display = "none";
 	}
 }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<

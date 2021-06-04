@@ -1,7 +1,21 @@
 // VARIABLES
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// ELEMENTS
+// Divisions
 var iframeHeader = document.getElementById("iframe-header");
 var iframeFooter = document.getElementById("iframe-footer");
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
+// FUNCTIONS
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// Updates Iframe for Header
 function updateIframeSize(){
 	try{
 		iframeHeader.style.height = iframeHeader.contentWindow.document.body.scrollHeight + "px";
@@ -12,4 +26,11 @@ function updateIframeSize(){
 	}
 }
 
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
+// Updates Iframe for header from time to time
 setInterval(updateIframeSize, 500);

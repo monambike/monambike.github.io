@@ -1,15 +1,31 @@
 // VARIABLES
-var divDisplay = document.getElementById("div-display");
-var svgDots = document.getElementsByClassName("svg-dot");
-var galleries = document.getElementsByClassName("div-gallery");
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// ELEMENTS
+// Title
 var slideTitle = document.getElementsByClassName("h3-slide-title");
+// Divisions
+var divDisplay = document.getElementById("div-display");
+var galleries = document.getElementsByClassName("div-gallery");
+// Image
+var svgDots = document.getElementsByClassName("svg-dot");
+
+// Set divDisplay default style to "block"
+divDisplay.style.display = "block";
+
+// Counter
 var i = 0;
 
-// Display content
-divDisplay.style.display = "block";
-updateIframeSize();
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 
-// Function to select dot
+
+
+
+
+// FUNCTIONS
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+// Function to select dot in slides
 function selectDot(dotSelected){
 	// Resets
 	for(i = 0; i < svgDots.length; i++){
@@ -37,3 +53,11 @@ function updateSlide(dotSelected){
 			+ "\n" + e);
 	}
 }
+
+// >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+
+
+
+
+
+updateIframeSize();
