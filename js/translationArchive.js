@@ -1,21 +1,17 @@
 var translationArchiveJson = `{
 	"pt-BR":{
-		"developer": "Desenvolvedor",
-		"welcome": "Seja Bem-Vindo!"
+		"developer": "Desenvolvedor"
 	},
 
 	"en-US":{
-		"developer": "Developer",
-		"welcome": "Welcome to my site!"
+		"developer": "Developer"
 	},
 
 	"es-ES":{
-		"developer": "Desarollador",
-		"welcome": "Bienvenido!"
+		"developer": "Desarollador"
 	},
 
 	"ja-JP":{
-		"developer": "開発者",
-		"welcome": "へようこそ!"
+		"developer": "開発者"
 	}
 }`
