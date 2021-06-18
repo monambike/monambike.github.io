@@ -205,6 +205,13 @@ body{
 .section-contact p{
 	margin: 5 px;
 }
+#div-media{
+	background-color: var(--gray-1);
+	border-color: white;
+	border: white 2px solid;
+	padding: 10px;
+	margin: 0px;
+}
 
 /* BUTTON COLORS */
 /* Github */
