@@ -68,20 +68,20 @@ body{
 	text-align: center;
 }
 /* Rows */
-.section-welcome article{
+.section-values article{
 	height: auto;
 	overflow: auto;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	width: 100%;
 }
-.section-welcome article div{
+.section-values article div{
 	box-shadow: 5px 5px var(--gray-4);
 	float: left;
 	padding: 0px;
 	width: 30%;
 }
-.section-welcome article div p{
+.section-values article div p{
 	margin: 30px;
 	text-align: justify;
 }
