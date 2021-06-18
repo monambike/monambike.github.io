@@ -1,7 +1,13 @@
 body{
 	background: var(--purple-3) url(/resources/images/wallpaper_code.jpg) no-repeat fixed center/cover;
 }
+
+
+
+
+
 /* TITLE */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .section-title{
 	background-color: rgba(100,0,200,0.95);
 	display: flex;
@@ -15,19 +21,30 @@ body{
 	text-align: left;
 	text-shadow: 5px 5px var(--purple-1);
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
 
 /* NOTICE */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .notice{
 	background-color: var(--red);
 	color: var(--white);
 	padding: 20px;
 	text-align: center;
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
 
 /* ABOUT */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .section-about{
 	background-color: var(--purple-7);
-	float: left;
 }
 .section-about div{
 	padding: 20px;
@@ -37,13 +54,15 @@ body{
 	padding-right: 60px;
 	text-align: justify;
 }
-.section-about figure{
-	display: inline-block;
-	float: right;
-}
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 
-/* WELCOME */
-.section-welcome{
+
+
+
+
+/* VALUES */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+.section-values{
 	background-color: var(--purple-1);
 	color: var(--white);
 	text-align: center;
@@ -76,8 +95,14 @@ body{
 	background-color: var(--purple-7);
 	color: var(--black);
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
 
 /* WORKS */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
 .section-works{
 	background-color: var(--purple-2);
 	color: var(--white);
@@ -136,8 +161,16 @@ body{
 .svg-dot.selected{
 	color: var(--white);
 }
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+
+
+
 
 /* CONTACT */
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
+
+/* MAIN */
 .section-contact{
 	background-color: var(--white);
 }
