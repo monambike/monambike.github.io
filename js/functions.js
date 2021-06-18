@@ -20,7 +20,6 @@ function updateIframeSize(){
 	try{
 		iframeHeader.style.height = iframeHeader.contentWindow.document.body.scrollHeight + "px";
 		iframeFooter.style.height = iframeFooter.contentWindow.document.body.scrollHeight + "px";
-	
 	}catch(e){
 		return;
 	}
