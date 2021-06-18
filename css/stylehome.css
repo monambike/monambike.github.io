@@ -173,5 +173,74 @@ body{
 
 /* MAIN */
 .section-contact{
-	background-color: var(--white);
+	background-color: var(--gray-5);
 }
+.section-contact div{
+	background-color: var(--gray-1);
+	color: var(--gray-5);
+	text-align: justify;
+	padding: 50px;
+	margin: 50px 10% 50px 10%;
+	border-radius: 2px;
+}
+
+.section-contact span img{
+	height: 1em;
+	margin-bottom: -3.5px;
+	width: auto;
+}
+.section-contact span{
+	color: var(--white);
+	cursor: pointer;
+	border-radius: 2px;
+	margin-left: 2px;
+	margin-right: 2px;
+	padding: 2px;
+	word-break: keep-all;
+	white-space: nowrap;
+}
+.section-contact span:hover{
+	transition-duration: 1s;
+}
+.section-contact p{
+	margin: 5 px;
+}
+
+/* BUTTON COLORS */
+/* Github */
+#span-github{
+	background-color: var(--black);
+}
+#span-github:hover{
+	background-color: var(--gray-2);
+}
+/* Outlook */
+#span-outlook{
+	background-color: rgba(0, 100, 185, 1);
+}
+#span-outlook:hover{
+	background-color: rgba(40, 170, 235, 1);
+}
+/* Google */
+#span-google{
+	background-color: rgb(200, 35, 30);
+}
+#span-google:hover{
+	background-color: rgba(215, 70, 65);
+}
+/* Linkedin */
+#span-linkedin{
+	background-color: rgb(15, 150, 220);
+}
+#span-linkedin:hover{
+	background-color: rgb(75, 175, 230);
+}
+/* Whatsapp */
+#span-whatsapp{
+	background-color: rgb(40, 180, 55);
+}
+#span-whatsapp:hover{
+	background-color: rgb(100, 225, 115);
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> <<<<<<<<<<<<<<<<<<<<<<<<<<<<<< */
