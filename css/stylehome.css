@@ -85,13 +85,14 @@ body{
 	margin: 30px;
 	text-align: justify;
 }
-.div-first-row, .div-third-row{
+/* COLUMNS */
+.div-first-column, .div-third-column{
 	background-color: var(--purple-2);
 	color: var(--white);
 	margin-left: 2.5%;
 	margin-right: 2.5%;
 }
-.div-second-row{
+.div-second-column{
 	background-color: var(--purple-7);
 	color: var(--black);
 }
